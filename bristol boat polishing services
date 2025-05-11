@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harbour Shine - Boat Cleaning & Polishing</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Harbour Shine</h1>
+    <p>Boat Polishing & Cleaning – Bristol & Portishead</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Exterior Boat Cleaning</li>
+        <li>Gelcoat Polishing</li>
+        <li>Teak Deck Washing</li>
+        <li>Hull Waxing</li>
+        <li>Interior Detailing</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We’re a local team based near the Bristol Harbour and Portishead Marina offering professional boat cleaning and polishing with a personal touch. Whether your vessel needs a quick rinse or a full polish, we’ll leave it gleaming and ready to sail.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> hello@harbourshine.co.uk</p>
+      <p><strong>Phone:</strong> 07800 123 456</p>
+      <p><strong>Based in:</strong> Bristol & Portishead</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Harbour Shine. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+style.css
+css
+Copy
+Edit
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #0e4a7b;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+nav {
+  background: #ddd;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0e4a7b;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+}
+
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
