@@ -1,3 +1,5 @@
+index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,10 +50,9 @@
   </footer>
 </body>
 </html>
+
 style.css
-css
-Copy
-Edit
+
 body {
   font-family: sans-serif;
   line-height: 1.6;
